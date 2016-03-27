@@ -17,4 +17,6 @@ sudo python setup.py install
 
 
 Edit your .bashrc_profile and add the following
+
+
 export PYTHONPATH=/xgboost/python-package
