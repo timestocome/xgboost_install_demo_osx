@@ -1,4 +1,21 @@
-# xgboost_install_demo_osx
-How I installed XGBoost on OSX for use with Python and the demo program and data to test the install
+How I installed xgboost on OSX
+
+Download
+https://github.com/dmlc/xgboost
 
 
+git clone --recursive https://github.com/dmlc/xgboost
+cd xgboost/
+
+cp make/minimum.mk ./config.mk
+
+make
+python setup.py install
+
+cd python-package
+sudo python setup.py install
+
+
+Edit your .bashrc_profile and add the following
+# path for xgboost
+export PYTHONPATH=/xgboost/python-package
