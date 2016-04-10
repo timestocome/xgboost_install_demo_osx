@@ -1,7 +1,4 @@
-How I installed xgboost on OSX
-
-Download
-https://github.com/dmlc/xgboost
+How I installed xgboost on OSX    (https://github.com/dmlc/xgboost)
 
 
 git clone --recursive https://github.com/dmlc/xgboost
