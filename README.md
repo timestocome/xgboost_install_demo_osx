@@ -5,14 +5,17 @@ https://github.com/dmlc/xgboost
 
 
 git clone --recursive https://github.com/dmlc/xgboost
+
 cd xgboost/
 
 cp make/minimum.mk ./config.mk
 
 make
+
 python setup.py install
 
 cd python-package
+
 sudo python setup.py install
 
 
