@@ -20,3 +20,7 @@ Edit your .bashrc_profile and add the following
 
 
 export PYTHONPATH=/xgboost/python-package
+
+
+----------------------------------------------
+I included a demo program to test your install and a more complex on that works through the SF Crime data
